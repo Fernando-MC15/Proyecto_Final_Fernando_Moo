@@ -1,0 +1,340 @@
+@media screen and (max-width: 480px) {
+  .info-header {
+    height: 150px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 15px;
+  }
+  .info-header-numero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logo {
+    display: none;
+  }
+  .logo-movil {
+    display: block;
+  }
+  .logo-nav-info {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  #barra-menu {
+    display: block;
+    transition: all 0.5s ease;
+  }
+  #barra-menu:hover {
+    transform: scale(1.1);
+  }
+  nav ul {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    background-color: rgba(227, 227, 227, 0.97);
+    z-index: 4;
+    /* display: none; */
+    top: 100%;
+    right: -200%;
+    width: 100%;
+    height: 660px;
+    position: absolute;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  nav ul.abrirmenu {
+    right: 0%;
+  }
+  nav ul li {
+    /* border-bottom: 1px #ccc dotted; */
+    width: 100%;
+    text-align: center;
+  }
+  #contenedormenu li a {
+    display: block;
+    color: black;
+    font-size: 24px;
+  }
+  .btn-nav {
+    display: none !important;
+  }
+  /* slide slide  */
+  /* slide slide  */
+  /* slide slide  */
+  /* slide slide  */
+  /* slide slide  */
+  .ancho-slide-info {
+    margin-top: 30px;
+    gap: 10px;
+  }
+  .ancho-slide-info h2 {
+    width: 300px;
+    line-height: 34px;
+    font-size: 44px;
+    margin: 25px 0;
+  }
+  .btns-slide {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .callbacks_container img {
+    height: 500px;
+  }
+  .btn-slide-left {
+    padding: 15px 30px;
+  }
+  .btn-slide-right {
+    padding: 15px 30px;
+  }
+  .bg-slide-info-p {
+    width: 200px;
+    padding: 10px 15px;
+  }
+  /* SEGUNDA SECCION */
+  /* SEGUNDA SECCION */
+  /* SEGUNDA SECCION */
+  /* SEGUNDA SECCION */
+  /* SEGUNDA SECCION */
+  .section2-container {
+    flex-direction: column;
+  }
+  .section2-container article {
+    width: 98%;
+  }
+  .section2-container div {
+    width: 98%;
+  }
+  .small-image {
+    flex-wrap: wrap;
+  }
+  /* TERCERA SECCION */
+  /* TERCERA SECCION */
+  /* TERCERA SECCION */
+  /* TERCERA SECCION */
+  /* TERCERA SECCION */
+  .articles-section3 {
+    flex-direction: column;
+    gap: 20PX;
+  }
+  .article-section3-1, .article-section3-2, .article-section3-3 {
+    border-radius: 50%;
+  }
+  /* CUARTA SECCION */
+  /* CUARTA SECCION */
+  /* CUARTA SECCION */
+  /* CUARTA SECCION */
+  /* CUARTA SECCION */
+  .parrallaxas {
+    height: 1630px;
+    background-position-x: -100px;
+  }
+  .info-parrallaxas {
+    width: 100%;
+  }
+  .info-pa
+  .info-parrallaxas h2 {
+    width: 80%;
+  }
+  .articles-parrallaxas {
+    width: 90%;
+    flex-direction: column;
+  }
+  .article-parrallaxas {
+    width: 100%;
+  }
+  /* QUINTA SECCION */
+  /* QUINTA SECCION */
+  /* QUINTA SECCION */
+  /* QUINTA SECCION */
+  /* QUINTA SECCION */
+  .section5-bg {
+    height: auto;
+  }
+  #slider1 {
+    max-width: 100%;
+  }
+  #slider1 .overview li {
+    width: 300px;
+  }
+  .section5-container {
+    display: inline-block;
+  }
+  .img-alone {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .foto-solo {
+    width: 90%;
+    margin-left: 19px;
+    filter: brightness(1);
+  }
+  .foto-solo:hover {
+    transform: scale(1.05);
+  }
+  /* SEXTA SECCION */
+  /* SEXTA SECCION */
+  /* SEXTA SECCION */
+  /* SEXTA SECCION */
+  /* SEXTA SECCION */
+  .parrallaxas2 {
+    background-position-x: -1200px;
+    height: 1400px;
+  }
+  .parrallaxas2::before {
+    height: 1400px;
+  }
+  .article1-parrallaxas2 {
+    width: 90%;
+    top: 5%;
+    left: 18px;
+  }
+  #youtube {
+    width: 350px;
+    top: 650px;
+    left: 10px;
+  }
+  .skills {
+    width: 93%;
+    left: 10px;
+    top: 950px;
+  }
+
+  /* SEPTIMA SECCION */
+  /* SEPTIMA SECCION */
+  /* SEPTIMA SECCION */
+  /* SEPTIMA SECCION */
+  /* SEPTIMA SECCION */
+  .section7-bg {
+    height: 1800px;
+    padding: 30px;
+  }
+  .container-icon1 {
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+  }
+  .letra-morada {
+    padding-bottom: 70px;
+  }
+  .bg-imagenes {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  .bg-imagenes:hover {
+    transform: scale(1);
+  }
+  .section7-bg h2 {
+    margin-bottom: 40px;
+  }
+  /* OCTAVA SECCION */
+  /* OCTAVA SECCION */
+  /* OCTAVA SECCION */
+  /* OCTAVA SECCION */
+  /* OCTAVA SECCION */
+  .section8-container {
+    padding: 14px;
+  }
+  .instalaciones {
+    grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6";
+  }
+  .instalaciones figure {
+    margin: auto;
+    width: 90%;
+  }
+  .containergaleria-icon2 {
+    text-align: center;
+  }
+  .containergaleria-icon2 h4 {
+    font-size: 26px;
+    width: 200px;
+  }
+  .containergaleria-icon2 p {
+    font-size: 14px;
+  }
+  .containergaleria-icon2 i {
+    font-size: 30px;
+    color: var(--blanco);
+  }
+  .containergaleria-icon1 {
+    opacity: 1;
+  }
+  /* NOVENA SECCION */
+  /* NOVENA SECCION */
+  /* NOVENA SECCION */
+  /* NOVENA SECCION */
+  /* NOVENA SECCION */
+  .section9-bg {
+    height: 1500px;
+  }
+  .section9-container {
+    flex-direction: column;
+  }
+  .section9-article {
+    width: 100%;
+    padding: 30px;
+  }
+  .container-contacto {
+    flex-direction: column;
+  }
+  .contacto {
+    gap: 40px;
+  }
+  .contacto div p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .justificado {
+    text-align: justify;
+  }
+  .movform {
+    top: 25%;
+    left: 5%;
+  }
+  .acordeon_titulo {
+    padding: 0;
+    margin: 0;
+  }
+  .acordeon_contenido {
+    text-align: justify;
+  }
+  .iconos {
+    width: 25px;
+    height: 25px;
+  }
+  .formulario-validado {
+    width: 90%;
+  }
+
+  /* FINAL */
+  /* FINAL */
+  /* FINAL */
+  /* FINAL */
+  /* FINAL */
+  .contenedorfinal-info {
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  /* .final-info1 {
+    align-items: center;
+  }
+  .final-info2 {
+    align-items: center;
+  } */
+  .final-info3 {
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  .news {
+    padding-left: 20px;
+  }
+  .derechos {
+    padding: 30px;
+    text-align: center;
+  }
+}
